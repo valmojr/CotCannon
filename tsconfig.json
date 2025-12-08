@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "paths": {
+      "https://esm.sh/lodash@4.17.21": ["./node_modules/@types/lodash/index.d.ts"],
+      "*": ["./empty-file.ts"]
+    }
+  }
+}
