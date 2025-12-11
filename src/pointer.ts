@@ -25,12 +25,12 @@ if (SOCKET_TYPE === "UDP") {
 
 function startConnection() {
   const pointer = new DigitalPointer({
-    callsign: "Pointer1Valmo",
+    callsign: "Valmo",
     role: FunctionRole.TeamMember,
     groupColor: GroupColor.Red,
-    lat: -30.016687,
-    lon: -51.086480,
-  })
+    lat: -30.00000,
+    lon: -51.00000,
+  });
   console.log(
     `Starting connections to ${SERVER_ADDRESS}:${SERVER_PORT} via ${SOCKET_TYPE}`
   );
